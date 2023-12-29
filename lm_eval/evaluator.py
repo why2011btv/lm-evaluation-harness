@@ -28,7 +28,7 @@ def simple_evaluate(
     description_dict=None,
     check_integrity=False,
     decontamination_ngrams_path=None,
-    write_out=False,
+    write_out=True,
     output_base_path=None,
 ):
     """Instantiate and evaluate a model on a list of tasks.
